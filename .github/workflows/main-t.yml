@@ -15,10 +15,9 @@ jobs:
     - name: Publish to Registry
       uses: elgohr/Publish-Docker-Github-Action@master
       with:
-        name: ahkworld/nodejs/nodejs-t
+        name: ahkworld/nodejs-t
         username: ahkworld
         password: ${{ secrets.DOCKER_PASSWORD }}
-        registry: ghcr.io
         snapshot: true
         dockerfile: Dockerfile
         tags: "main"

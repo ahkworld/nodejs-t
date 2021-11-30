@@ -1,8 +1,6 @@
-name: nodejs-t
+name: nodejs-m
 #名字，随便取
 on:
-  push:
-    branches: main
   workflow_dispatch:
 #触发条件，常用的有特定分支的代码提交，点击按钮，标记特定标签。这里采用了前两种。
 jobs:
